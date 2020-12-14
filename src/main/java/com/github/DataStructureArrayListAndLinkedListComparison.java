@@ -19,7 +19,7 @@ public class DataStructureArrayListAndLinkedListComparison {
 		List<Person> linkedList = new LinkedList<>();
 		long init = System.nanoTime();
 		for (int i = 0; i <= size; i++) {
-			Person person = new Person("Test", 1);
+			Person person = new Person("Test", i);
 			linkedList.add(person);
 			//linkedList.remove(person);
 		}
@@ -29,7 +29,7 @@ public class DataStructureArrayListAndLinkedListComparison {
 		List<Person> arrayList = new ArrayList<>();
 		init = System.nanoTime();
 		for (int i = 0; i <= size; i++) {
-			Person person = new Person("Test", 1);
+			Person person = new Person("Test", i);
 			arrayList.add(person);
 			//arrayList.remove(person);
 		}
